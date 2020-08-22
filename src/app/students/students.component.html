@@ -4,6 +4,7 @@
       <tr>
         <th>#</th>
         <th>Imię i nazwisko</th>
+        <th>Nazwa użytkownika</th>
         <th>Adres e-mail</th>
         <th>Akcje</th>
       </tr>
@@ -12,6 +13,7 @@
       <tr *ngFor="let student of students">
         <td>{{student.id}}</td>
         <td>{{student.name}}</td>
+        <td>{{student.username}}</td>
         <td>
           <a href="mailto:{{student.email}}">{{student.email}}</a>
         </td>
@@ -23,7 +25,9 @@
     </tbody>
   </table>
 
-  <div class="new-student">
+  <app-student-new [students]="students"></app-student-new>
+
+  <!--<div class="new-student">
     <h2>Dodaj nowego studenta</h2>
     <label for="name">Imię i nazwisko:</label>
     <input type="text" id="name" #name>
@@ -34,5 +38,5 @@
     <button (click)="add(name.value, email.value); name.value=''; email.value=''">
       Dodaj
     </button>
-  </div>
+  </div>-->
 </section>

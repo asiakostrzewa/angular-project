@@ -27,7 +27,7 @@ export class StudentsComponent implements OnInit {
     this.studentService.deleteStudent(student).subscribe();
   }
 
-  add(name: string, email: string): void {
+  /*add(name: string, email: string): void {
     // Usunięcie białych znaków z danych
     name = name.trim();
     email = email.trim();
@@ -47,5 +47,5 @@ export class StudentsComponent implements OnInit {
       .subscribe(student => {
         this.students.push(student);
       });
-  }
+  }*/
 }
