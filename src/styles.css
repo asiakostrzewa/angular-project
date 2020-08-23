@@ -103,27 +103,27 @@ a:hover {
   outline: 0;
 }
 
-/* Przycisk w kolorze zielonym */
-.button-green {
-  background: #33cc55;
+/* Przycisk w kolorze morskim */
+.button-seacolor {
+  background: #22969e;
 }
-.button-green:hover {
+.button-seacolor:hover {
   background:  #80838d;
 }
-.button-green:active,
-.button-green:focus {
+.button-seacolor:active,
+.button-seacolor:focus {
   background:  #80838d;
 }
 
 /* Przycisk w kolorze czerwonym */
-.button-red {
+.button-orange {
   background: #e74c3c;
 }
-.button-red:hover {
+.button-orange:hover {
   background: #80838d;
 }
-.button-red:active,
-.button-red:focus {
+.button-orange:active,
+.button-orange:focus {
   background: #80838d;
 }
 
