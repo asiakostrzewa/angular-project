@@ -1,3 +1,5 @@
-# angular-ivy-nnpyq3
+Aplikacja do zarządzania studentami
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-nnpyq3)
+Projekt z zakresu technologii frontendowych realizowany w ramach kursu SDA
+
+Umożliwia dodawanie osób, edytowanie ich danych, usuwanie oraz podgląd listy studentów na bieżąco.
